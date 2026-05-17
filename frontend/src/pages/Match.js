@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, Cell } from 'recharts';
 
-const API = 'http://localhost:5000/api';
+const API = 'https://candidate-shortlist-backend-977w.onrender.com/api';
 
 function ScoreRing({ score }) {
   const r = 28, c = 2 * Math.PI * r;

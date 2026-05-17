@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
-const API = 'http://localhost:5000/api';
+const API = 'https://candidate-shortlist-backend-977w.onrender.com/api';
 
 export default function AIPage() {
   const [form, setForm] = useState({ requiredSkills: '', preferredSkills: '', minExperience: 0 });
